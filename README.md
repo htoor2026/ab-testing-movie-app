@@ -376,25 +376,36 @@ ab-testing-movie-app/
 │   ├── assign_experiment.py
 │   ├── validate_experiment.py
 │   ├── simulate_behavior.py
+│   │
 │   └── data/
+│       ├── synthetic_users.csv
+│       ├── experiment_users.csv
+│       ├── experiment_outcomes.csv
+│       └── simulation_truth.csv
 │
 ├── analysis/
 │   ├── power_analysis.py
 │   ├── ab_test_analysis.py
 │   ├── segment_analysis.py
 │   ├── interaction_analysis.py
+│   │
 │   ├── uplift_modeling.py
-│   ├── evaluate_uplift.py
 │   ├── x_learner.py
+│   ├── evaluate_uplift.py
 │   ├── model_comparison.py
+│   │
 │   ├── final_decision.py
 │   ├── create_charts.py
+│   │
 │   └── outputs/
+│       ├── charts/
+│       ├── uplift_predictions.csv
+│       ├── x_learner_predictions.csv
+│       └── supporting uplift evaluation files
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── Read.md
 └── .gitignore
 ~~~
 
